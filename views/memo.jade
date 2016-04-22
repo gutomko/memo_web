@@ -52,7 +52,7 @@ block content
                                 td(id='col_index_{{$index}}') {{((curPage - 1) * perPage) + $index + 1}}
                                 td(id='col_contents_{{$index}}') {{item.title}}
                                 td(id='col_tags_{{$index}}')
-                                    span.badge {{item.tags}}
+                                    span.badge(style="color: black !important") {{item.tags}}
                                 td.un(id='col_date_{{$index}}') {{item.edit_date}}
 
                 div(style='text-align: center;')

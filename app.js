@@ -16,6 +16,7 @@ var flash = require('connect-flash');
 var config = require('./config.json');
 
 var bcrypt = require('bcryptjs');
+var fs = require('fs');
 
 var db =require('monk')(config.db_connection_url);
 
@@ -53,6 +54,7 @@ var about = require('./routes/about');
 var memo = require('./routes/memo');
 var checklist = require('./routes/checklist');
 var users = require('./routes/users');
+var study = require('./routes/study');
 
 // Passport
 app.use(passport.initialize());
@@ -96,6 +98,7 @@ app.use('/about', about);
 app.use('/memo', memo);
 app.use('/checklist', checklist);
 app.use('/users', users);
+app.use('/study', study);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
