@@ -2059,7 +2059,7 @@ html body .page .text-grayscale-default {
   background-image: url(page-1_img03.jpg);
 }
 .bg-image-3 {
-  background-image: url(../images/page-1_img07.jpg);
+  background-image: url(page-1_img07.jpg);
 }
 
 /*
@@ -5308,7 +5308,7 @@ html:not(.lt-ie10) .not-animated {
 @font-face {
   font-family: 'FontAwesome';
   src: url("../fonts/fontawesome-webfont.eot?v=4.5.0");
-  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.5.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.5.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.5.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular") format("svg");
+  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0") format("embedded-opentype"), url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.1/fonts/fontawesome-webfont.woff2?v=4.5.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.5.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.5.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -8027,7 +8027,7 @@ html:not(.lt-ie10) .not-animated {
   font-weight: 400;
   font-family: 'FontAwesome';
 }
-
+/*
 @font-face {
   font-family: 'Thin Regular';
   src: url("../fonts/Thin-Regular.eot?66413286");
@@ -8035,6 +8035,7 @@ html:not(.lt-ie10) .not-animated {
   font-weight: normal;
   font-style: normal;
 }
+*/
 [class^="thin-icon-"]:before,
 [class*=" thin-icon-"]:before,
 .thin-ico {
@@ -8453,6 +8454,7 @@ html:not(.lt-ie10) .not-animated {
  * Source: http://www.flaticon.com/packs/chapps
  * License:  CC BY 3.0 (http://creativecommons.org/licenses/by/3.0/)
  */
+ /*
 @font-face {
   font-family: "fl-chapps";
   src: url("../fonts/fl-chapps.eot");
@@ -8460,6 +8462,7 @@ html:not(.lt-ie10) .not-animated {
   font-weight: normal;
   font-style: normal;
 }
+*/
 [class^="fl-chapps-"]:before, [class*=" fl-chapps-"]:before,
 [class^="fl-chapps-"]:after, [class*=" fl-chapps-"]:after {
   font-family: 'fl-chapps';
